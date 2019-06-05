@@ -3,7 +3,7 @@ import random
 #define constants
 RANGE_BOTTOM = 1
 RANGE_TOP = 10
-
+#This is Techdegree Project #1 for Python Web Development with Treehouse
 #define functions
 ##define start_game(), the function that starts the game and carries out the gameplay itself
 def start_game(high_score):
@@ -54,9 +54,7 @@ def ask_play_again(high_score):
         print("Okay, that's the end of the game, bye.")
         print("The final high score for this round was {}.".format(high_score))
 
-    
+
 #start the game
 if __name__ == '__main__':
     start_game(1000)
-
-
