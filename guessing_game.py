@@ -3,7 +3,7 @@ import random
 #define constants
 RANGE_BOTTOM = 1
 RANGE_TOP = 10
-#This is Techdegree Project #1 for Python Web Development with Treehouse
+
 #define functions
 ##define start_game(), the function that starts the game and carries out the gameplay itself
 def start_game(high_score):
