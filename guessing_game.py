@@ -48,11 +48,13 @@ def start_game(high_score):
 ##define ask_play_again(), a function that starts the game over if user says 'y' and ends it and prints high score if user says 'n'
 def ask_play_again(high_score):
     play_again = input("Do you want to play again? y/n  ")
-    if play_again[0].lower() == "y":
+    if play_again.lower() == "y":
          start_game(high_score)
     else:
         print("Okay, that's the end of the game, bye.")
-        print("The final high score for this round was {}.".format(high_score))
+        print("The final high score for this round  was {}.".format(high_score))
+
+
 
 
 #start the game
